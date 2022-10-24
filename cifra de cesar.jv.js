@@ -5,6 +5,21 @@ function cifrar() {
     document.getElementById("textocifrado").innerHTML = cypherCifrar(texto, numDesloc);
 }
 
+function base64 (){
+        let texto = document.getElementById("texto").value;
+let resultado = window.btoa(texto)
+console.log (resultado)
+
+}
+
+function base64 (){
+    let texto = document.getElementById("texto").value;
+let resultado = window.atob(texto)
+console.log (resultado)
+
+}
+
+
 function cypherCifrar(texto, numDesloc) {
     let textoArray = [];
     let deslocamentoArray = [];

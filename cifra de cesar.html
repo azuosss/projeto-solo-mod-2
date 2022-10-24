@@ -15,18 +15,26 @@
 <body>
     <h1 class="titulo">CIFRA DE CÉSAR/BASE64 </h1>
     <div>
+        <label id="selecione" for="select"></label>
+        <select name="select" class="select" id="select">
+            <option value="selecione" disabled selected>Selecione</option>
+            <option value="base64">Base64</option>
+            <option value="cifra">Cifra de césar</option>
+
+            
         <p><strong>Digite para criptografar e na sequência descriptografar sua mensagem:</strong> </p><input type="text" id="texto">
         <p><strong>Selecione um número para o deslocamento do texto:</strong></p><input type="number" id="deslocamento">
+
     </div>
 
     <div>
+    <div>
+        
         <br>
-        <button class=button1 onclick="cifrar()">Codificar</button>
-        <button class=button1 onclick="decifrar()">Decifrar</button>
+        <button class=button1 onclick="cifrar()">codifica </button>
+        <button class=button1 onclick="decifrar()">decodifica </button>
 
-        <style>
-            <p> {
-                color: purple; </style>
+       
         <br></br>
 
         <div>
