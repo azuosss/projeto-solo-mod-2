@@ -1,0 +1,14 @@
+body {
+    background: url('./3.jpg') no-repeat center center;
+    position: relative;
+    background-size: cover;
+    text-align: center;
+    font-size: 136%;
+    width: 99%;
+    top: 93%;
+    margin-bottom: 30%
+
+}
+
+ 
+body {color: white;}
